@@ -1,0 +1,56 @@
+.ml-display-left {
+   display: flex;
+   flex: auto;
+}
+
+.ml-modal-content {
+   padding-top: 5px;
+   padding-bottom: 10px;
+
+   .logged-message {
+      div[class*="groupStart"] {
+         margin-top: 8px;
+      }
+
+      div[class*="buttonContainer"] {
+         display: none;
+      }
+   }
+}
+
+.ml-red-tint {
+   color: #f04747 !important;
+}
+
+.sort-button {
+  &-container {
+    &:hover {
+      .sort-button-icon &,
+      .sort-button-text & {
+        background-color: hsla(0,0%,100%,.05);
+      }
+    }  
+  }
+  &-icon {
+    min-width: 25px;
+  }
+  &-text {
+    padding-right: 3px;
+    padding-left: 12px;
+    border-radius: 3px 0px 0px 3px;
+    padding-bottom: 4px;
+  }
+}
+
+.ml-load-more-messages {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+   button {
+      width: 100%;
+      height: 30px;
+      min-height: 30px;
+   }
+}
+
